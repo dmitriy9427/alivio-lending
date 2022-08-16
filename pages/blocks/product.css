@@ -1,0 +1,141 @@
+.product {
+    padding-top: 120px;
+    padding-bottom: 168px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-img-wrapper {
+    margin-right: 86px;
+    padding-left: 60px;
+    padding-bottom: 74px;
+    position: relative;
+}
+
+.product-img {
+    border-radius: 18px;
+
+}
+
+.product-content {
+    max-width: 584px;
+
+}
+
+.product__content-title {
+    font-family: 'Lato', serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+.product__content-subtitle {
+    font-family: 'Georgia', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+    margin-bottom: 20px;
+}
+
+.product__content-text {
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+    margin-bottom: 40px;
+    max-width: 530px;
+}
+
+.product-card {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.card {
+    max-width: 296px;
+    background-color: #fff;
+    box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 28px 30px;
+}
+
+.card-title {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 14.49px;
+    line-height: 157%;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 13px;
+}
+
+.card-title::after {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    height: 0.75px;
+    left: -7px;
+    right: -7px;
+    bottom: 0;
+}
+
+.card-avatar {
+    margin-bottom: 25px;
+
+}
+
+.avatar {
+    text-align: center;
+}
+
+.avatar-img {
+    margin-bottom: 13px;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.avatar-name {
+    font-size: 12px;
+}
+
+.card-contents {
+    text-align: left;
+    padding-left: 6px;
+}
+
+.card-contents-title {
+    font-family: 'Georgia', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 157%;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.card-list {
+    font-size: 10.62px;
+    
+}
+
+.card-list-el {
+    margin-top: 20px;
+    list-style: disc;
+    list-style-position: inside;
+    
+}

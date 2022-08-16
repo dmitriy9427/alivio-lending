@@ -1,0 +1,33 @@
+.footer {
+    background-color: #245852;
+    padding-top: 145px;
+    padding-bottom: 144px;
+    color: #fff;
+}
+
+.footer-logo {
+    margin-bottom: 75px;
+    max-width: 106px;
+}
+
+.footer-linkes-li {
+    margin-bottom: 60px;
+}
+
+.footer-linkes-li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-link {
+    color: #fff;
+    position: relative;
+    transition: color 0.5s ease;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.footer-link:hover {
+    color: fuchsia;
+}
