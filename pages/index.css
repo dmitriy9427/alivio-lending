@@ -4,6 +4,14 @@ body {
     font-size: 20px;
     color: #424242;
     /* background-color: #a59d9d;; */
+    /* min-width: 1600px; */
+
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 18px;
+    }
 }
 
 /* utility */
@@ -34,5 +42,12 @@ body {
     margin-left: auto;
 }
 
+@media (max-width: 1399px) {
+    .container {
+        width: 100%;
+    }
+}
 
-
+.no-scroll {
+    overflow: hidden;
+}

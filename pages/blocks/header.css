@@ -29,20 +29,33 @@
     margin-left: 70px;
 }
 
-.header-nav a {
+.header__links {
     transition: color 0.5s ease;
-    color: #000000;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 
-.header-nav a:hover {
-    color: fuchsia;
+.header__link {
+    color: rgb(62, 59, 59);
+}
 
+.header__link:hover {
+    color: fuchsia;
+}
+
+.header-login-link {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(62, 59, 59);
 }
 
 .header-login-link:not(:last-child) {
     margin-right: 35px;
-    color: #000;
-    transition: color 0.5s ease;
+    transition: color 0.5s;
     margin-left: auto;
 }
 
@@ -63,4 +76,41 @@
 
 .btn-big:hover {
     color: fuchsia;
+}
+
+@media (max-width: 1399px) {
+    .header-nav {
+        margin-left: 30px;
+    }
+
+    .header-nav li+li {
+        margin-left: 50px;
+    }
+
+    .header-login {
+        margin-left: 0;
+    }
+
+    .header-login-link:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-nav {
+        display: none;
+    }
+
+    .header-login {
+        display: none;
+    }
+
+    .btn-big {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        font-size: 15px;
+        line-height: 16px;
+    }
+
 }

@@ -17,12 +17,10 @@
 
 .product-img {
     border-radius: 18px;
-
 }
 
 .product-content {
     max-width: 584px;
-
 }
 
 .product__content-title {
@@ -56,7 +54,7 @@
 .product-card {
     position: absolute;
     left: 0;
-    bottom: 0;
+    top: 60%;
 }
 
 .card {
@@ -94,7 +92,6 @@
 
 .card-avatar {
     margin-bottom: 25px;
-
 }
 
 .avatar {
@@ -107,7 +104,6 @@
     height: 57px;
     border-radius: 50%;
     object-fit: cover;
-
 }
 
 .avatar-name {
@@ -130,12 +126,89 @@
 
 .card-list {
     font-size: 10.62px;
-    
 }
 
 .card-list-el {
     margin-top: 20px;
     list-style: disc;
     list-style-position: inside;
-    
+}
+
+@media (max-width: 1299px) {
+    .product {
+        padding-top: 80px;
+    }
+
+    .product-img-wrapper {
+        flex: 1 0 auto;
+        flex-basis: 50%;
+    }
+
+    .product-card {
+        top: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    .product {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .product-row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .product-img-wrapper {
+        padding: 0;
+        margin: 0;
+    }
+
+    .product-img {
+        margin-top: 30px;
+    }
+
+    .product-card {
+        /* left: 50%;
+        transform: translate(-50%);
+        top: 80%; */
+        position: relative;
+        z-index: 2;
+        margin-top: -70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-title {
+        font-size: 12px;
+        line-height: 137%;
+    }
+
+    .card-contents-title {
+        font-size: 15px;
+        line-height: 137%;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .product__content-subtitle {
+        font-size: 30px;
+        line-height: 117%;
+    }
+
+    .product__content-text {
+        font-size: 15px;
+    }
+
+    .card-title {
+        font-size: 10px;
+        line-height: 117%;
+    }
+
+    .card-contents-title {
+        font-size: 10px;
+        line-height: 117%;
+    }
 }

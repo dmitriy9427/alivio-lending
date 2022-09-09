@@ -31,3 +31,31 @@
 .footer-link:hover {
     color: fuchsia;
 }
+
+@media (max-width: 991px) {
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer-link {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .footer-linkes-li {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-link {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .footer-logo {
+        margin-bottom: 45px;
+        max-width: 79px;
+    }
+}

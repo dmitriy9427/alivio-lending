@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./pages/reset.css">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./pages/blocks/header.css">
+    <link rel="stylesheet" href="./pages/blocks/mobile-nav-button.css">
+    <link rel="stylesheet" href="./pages/blocks/mobile-nav.css">
     <link rel="stylesheet" href="./pages/blocks/home.css">
     <link rel="stylesheet" href="./pages/blocks/how-it-works.css">
     <link rel="stylesheet" href="./pages/blocks/story.css">
@@ -25,19 +27,38 @@
                 <div class="header-logo"><img src="./pages/images/Logo.svg" alt="logo"></div>
                 <nav class="header-nav">
                     <ul>
-                        <li class="header__link"><a href="#">Why Alivio</a></li>
-                        <li class="header__link"><a href="#">Solutions</a></li>
-                        <li class="header__link"><a href="#">Community</a></li>
-                        <li class="header__link"><a href="#">Pricing</a></li>
+                        <li class="header__links"><a class="header__link" href="#">Why Alivio</a></li>
+                        <li class="header__links"><a class="header__link" href="#">Solutions</a></li>
+                        <li class="header__links"><a class="header__link" href="#">Community</a></li>
+                        <li class="header__links"><a class="header__link" href="#">Pricing</a></li>
                     </ul>
                 </nav>
                 <div class="header-login">
                     <a class="header-login-link" href="#">Sign in</a>
                     <a class="header-login-btn btn-big" href="#">Start Trial</a>
                 </div>
+                <button type="button" class="mobile-nav-button">
+                    <span class="mobile-nav-button__icon"></span>
+                </button>
             </div>
         </div>
     </header>
+
+    <div class="mobile-nav">
+        <img class="mobile-nav-logo" src="./pages/images/Logo.svg" alt="logo">
+        <nav class="mobile-nav-list">
+            <ul>
+                <li class="mobile__links"><a class="mobile__link" href="#">Why Alivio</a></li>
+                <li class="mobile__links"><a class="mobile__link" href="#">Solutions</a></li>
+                <li class="mobile__links"><a class="mobile__link" href="#">Community</a></li>
+                <li class="mobile__links"><a class="mobile__link" href="#">Pricing</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-login">
+            <a class="mobile-login-link" href="#">Sign in</a>
+            <a class="mobile-login-link btn-big" href="#">Start Trial</a>
+        </div>
+    </div>
 
     <main>
         <section class="home">
@@ -125,7 +146,7 @@
                         </div>
                     </div>
                     <div class="story-video">
-                        <img src="./pages/images/Video.png" alt="">
+                        <img src="./pages/images/Video.png" alt="video-story">
                     </div>
                 </div>
             </div>
@@ -193,8 +214,8 @@
             </div>
         </div>
 
-
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
